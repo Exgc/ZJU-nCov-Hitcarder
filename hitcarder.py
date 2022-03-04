@@ -94,10 +94,10 @@ class HitCarder(object):
             print('fend')
             print(fff.replace('\n',''))
             print('sss')
-            for i,j in zip(new_form,fff):
+            for i,j in zip(new_form.replace(' ','').replace('\n',''),fff.replace(' ','').replace('\n','')):
                 if i!=j:
                     print(i,j)
-            if new_form.replace('\n','') == fff.replace('\n',''):
+            if new_form.replace(' ','').replace('\n','') == fff.replace(' ','').replace('\n',''):
                 return True
         return False
 
