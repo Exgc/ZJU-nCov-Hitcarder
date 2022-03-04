@@ -93,7 +93,7 @@ class HitCarder(object):
             print(new_form.replace('\n',''))
             print('fend')
             print(fff.replace('\n',''))
-            print('sss)
+            print('sss')
             if new_form.replace('\n','') == fff.replace('\n',''):
                 return True
         return False
