@@ -93,8 +93,10 @@ class HitCarder(object):
         with open("form.txt", "r", encoding="utf-8") as f:
             fff=f.read()
             print('fstart')
-            print(fff)
+            print(new_form.replace('\n',''))
             print('fend')
+            print(fff.replace('\n',''))
+            print('sss)
             if new_form.replace('\n','') == fff.replace('\n',''):
                 return True
         return False
