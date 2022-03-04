@@ -230,7 +230,7 @@ if __name__ == "__main__":
     
     time_sleep=random.randint(0,600)
     print('sleep time %d'%time_sleep)
-    time.sleep(time_sleep)
+    #     time.sleep(time_sleep)
     ret, msg = main(username, password)
     print(ret, msg)
     if ret == 1:
